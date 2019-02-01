@@ -1,0 +1,25 @@
+.Actual {
+  left: 20%;
+}
+.Servidor {
+  right: 20%;
+}
+
+
+.Servidor, .Actual{
+  font-family: 'digital';
+  text-align: center;
+  position:  fixed;
+  font-size: auto;
+
+  width: 25%;
+  padding: 30px;
+  bottom: 45%;
+}
+
+body {
+  background: url(original.jpg) #000;
+  background-size: cover;
+  color:#fff;
+  font-size: 16px;
+}
